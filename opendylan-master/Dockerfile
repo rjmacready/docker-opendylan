@@ -1,8 +1,9 @@
 
-FROM rjmacready/opendylan
+FROM rjmacready/opendylan-2013.2
 
-RUN apt-get -y install git
-
-RUN mkdir -p /opt/opendylan-master \ 
-    && git clone https://github.com/dylan-lang/opendylan /opt/opendylan-master
-
+ONBUILD mkdir -p /opt/git/opendylan \
+	&& git clone https://github.com/dylan-lang/opendylan /opt/git/opendylan \
+	&& cd /opt/git/opendylan \
+	&& ./autogen.sh \
+	&& ./configure --with-gc=boehm --with-gc-path=/usr/lib --prefix=/opt/opendylan-master \
+	&& make 3-stage-bootstrap
