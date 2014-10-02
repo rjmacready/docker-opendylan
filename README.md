@@ -16,13 +16,20 @@ You should be set up for building [opendylan](http://opendylan.org) from source,
 
 ## How to use this image
 
+### Bootstrap the compiler from https://github.com/dylan-lang/opendylan
+
+
 ### Create a `Dockerfile` in your project
+
 
 ### Start a Dylan instance in your app
 
+
 ### Compile your app inside the Docker container
 
+
 ### Cross-compile your app inside the Docker container
+
 
 ## License
 
