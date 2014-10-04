@@ -2,7 +2,7 @@
 
 [Docker repo](https://registry.hub.docker.com/u/rjmacready/opendylan/)
 
-`docker pull rjmacready/opendylan`
+`docker pull rjmacready/opendylan-2013.2`
 
 You should be set up for building [opendylan](http://opendylan.org) from source, you just need to [checkout the source](https://github.com/dylan-lang/opendylan).
 
