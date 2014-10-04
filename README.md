@@ -38,7 +38,7 @@ CMD ["./_build/bin/hello-world"]
 and then you can build and run by:
 
 ```
-docker build -t hello-world
+docker build -t hello-world .
 docker run -it --rm --name running-hello-world hello-world
 ```
 
