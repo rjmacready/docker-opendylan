@@ -1,5 +1,5 @@
 
-.PHONY: upload test
+.PHONY: upload test all
 
 all: Dockerfile
 	docker build -t rjmacready/opendylan-2013.2-onbuild .
