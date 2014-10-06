@@ -1,25 +1,25 @@
-# Docker repo for opendylan
+# Docker repo for Open Dylan
 
 [Docker repo](https://registry.hub.docker.com/u/rjmacready/opendylan/)
 
 `docker pull rjmacready/opendylan-2013.2`
 
-You should be set up for building [opendylan](http://opendylan.org) from source, you just need to [checkout the source](https://github.com/dylan-lang/opendylan).
+You should be set up for building [Open Dylan](http://opendylan.org) from source, you just need to [checkout the source](https://github.com/dylan-lang/opendylan).
 
 ## Supported tags
 
 ...
 
-## What is Dylan and opendylan?
+## What is Dylan and Open Dylan?
 
 ...
 
-## What this repo has?
+## What is in this repo?
 
-* `rjmacready/opendylan-2013.2`: An image for 2013.2 dylan compiler (last stable release)
-* `rjmacready/opendylan-2013.2-onbuild`: An image for building projects using 2013.2 dylan compiler
-* `rjmacready/opendylan-latest`: An image for building compiler from github
-* `rjmacready/opendylan-latest-onbuild`: An image for building projects using dylan compiler from github
+* `rjmacready/opendylan-2013.2`: An image for the 2013.2 Dylan compiler (last stable release)
+* `rjmacready/opendylan-2013.2-onbuild`: An image for building projects using the 2013.2 Dylan compiler
+* `rjmacready/opendylan-latest`: An image for building the compiler from Github
+* `rjmacready/opendylan-latest-onbuild`: An image for building projects using the Dylan compiler from Github
 
 ## How to use this image
 
@@ -27,7 +27,7 @@ You should be set up for building [opendylan](http://opendylan.org) from source,
 
 *Don't forget to add `.git`, `_build` and other unnecessary contents to you .dockerignore*
 
-You Dockerfile:
+Your Dockerfile:
 
 ```
 FROM rjmacready/opendylan-2013.2-onbuild
@@ -65,6 +65,3 @@ CMD ["./_build/bin/heroku-http-server-demo"]
 ### Issues
 
 ### Contributing
-
-
-
