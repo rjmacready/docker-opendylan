@@ -10,3 +10,7 @@ ONBUILD RUN ./autogen.sh \
 	&& ./configure --with-gc=boehm --with-gc-path=/usr/lib --prefix=/opt/opendylan-master \
 	&& git submodule update --init --recursive \
 	&& make 3-stage-bootstrap
+
+ONBUILD RUN make install
+
+ENV PATH /opt/opendylan-master/bin:$PATH
