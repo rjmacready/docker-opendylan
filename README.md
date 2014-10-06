@@ -10,7 +10,7 @@ You should be set up for building [Open Dylan](http://opendylan.org) from source
 
 ...
 
-## What is Dylan and opendylan?
+## What is Dylan and Open Dylan?
 
 ...
 
@@ -19,7 +19,7 @@ You should be set up for building [Open Dylan](http://opendylan.org) from source
 * `rjmacready/opendylan-2013.2`: An image for the 2013.2 Dylan compiler (last stable release)
 * `rjmacready/opendylan-2013.2-onbuild`: An image for building projects using the 2013.2 Dylan compiler
 * `rjmacready/opendylan-latest`: An image for building the compiler from Github
-* `rjmacready/opendylan-latest-onbuild`: An image for building projects using Dylan compiler from Github
+* `rjmacready/opendylan-latest-onbuild`: An image for building projects using the Dylan compiler from Github
 
 ## How to use this image
 
