@@ -9,4 +9,6 @@ RUN wget http://opendylan.org/downloads/opendylan/2013.2/opendylan-2013.2-x86_64
     && tar xvjf "opendylan-2013.2-x86_64-linux.tar.bz2" \
     && rm "opendylan-2013.2-x86_64-linux.tar.bz2"
 
+WORKDIR /
+
 ENV PATH /opt/opendylan-2013.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin

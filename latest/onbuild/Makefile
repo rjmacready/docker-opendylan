@@ -10,4 +10,3 @@ upload:
 
 test:
 	docker run -i -t rjmacready/opendylan-latest-onbuild /bin/bash
-
