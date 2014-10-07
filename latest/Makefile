@@ -3,6 +3,7 @@
 
 all: Dockerfile
 	docker build -t rjmacready/opendylan-latest .
+	docker tag rjmacready/opendylan-latest rjmacready/opendylan:latest
 
 upload:
 	docker push rjmacready/opendylan-latest
